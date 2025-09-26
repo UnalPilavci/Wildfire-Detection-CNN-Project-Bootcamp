@@ -75,3 +75,6 @@ Veri Seti Uyuşmazlığı: ImageNet üzerinde eğitilmiş olan modelin öğrendi
 Yetersiz İnce Ayar (Fine-Tuning): Modelin sadece en üst katmanlarını eğitmek, bu spesifik görev için yeterli olmamış olabilir. Taban modelin daha fazla katmanını "çözerek" (unfreezing) ve daha düşük bir öğrenme oranıyla daha uzun süre eğiterek (ince ayar) performans artırılabilirdi.
 Veri Seti Büyüklüğü: Görece küçük olan bu veri seti için, sıfırdan eğitilen ve probleme daha özel tasarlanmış bir modelin, devasa bir modelin ince ayarından daha iyi sonuç vermesi de olası bir senaryodur.
 Genel Değerlendirme: Projenin nihai çıktısı, %83.59 doğruluk oranına sahip, hiperparametre optimizasyonu ile geliştirilmiş özel CNN modelidir. Grad-CAM ile yapılan analizler, bu modelin tahminlerini büyük ölçüde görüntülerdeki alev ve duman gibi mantıksal bölgelere odaklanarak verdiğini doğrulamıştır. Bu sonuçlar, projenin hedeflerine başarıyla ulaşıldığını ve derin öğrenme ile orman yangını tespiti için etkili ve yorumlanabilir bir çözüm geliştirildiğini göstermektedir.
+
+Kaggle:
+https://www.kaggle.com/code/unalpilavci/akbank-deep-learning-bootcamp-project
